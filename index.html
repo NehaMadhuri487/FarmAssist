@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Agri AI Assistant</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🌾Agriculture Query AI Assistant</h1>
+
+    <!-- Language Selection -->
+    <label>Select Language:</label>
+    <select id="language">
+        <option value="en">English</option>
+        <option value="hi">Hindi</option>
+        <option value="te">Telugu</option>
+    </select>
+
+    <!-- Text Query -->
+    <textarea id="query" placeholder="Enter your agricultural query..."></textarea>
+
+    <!-- Image Upload -->
+
+    <button onclick="submitQuery()">Submit</button>
+
+    <div id="responseBox"></div>
+</div>
+<script src="/static/script.js"></script>
+</body>
+</html>
