@@ -1,7 +1,7 @@
 # 🌾 Agriculture Query System  
 ### Multilingual AI-Powered Farming Assistant  
 
-An AI-powered Agriculture Query System built using **FastAPI**, **Groq LLM**, and **Deep Translator** that answers agriculture-related queries in **English, Hindi, and Telugu**.
+An AI-powered Agriculture Query System built using **FastAPI** and **Deep Translator** that answers agriculture-related queries in **English, Hindi, and Telugu**.
 
 This project is designed for hackathon deployment and real-world agricultural assistance.
 
@@ -27,7 +27,6 @@ This project is designed for hackathon deployment and real-world agricultural as
 ## 🛠️ Tech Stack
 
 - **Backend:** FastAPI
-- **LLM API:** Groq (LLaMA3 Model)
 - **Translation:** deep-translator
 - **Frontend:** HTML + CSS
 - **Environment Variables:** python-dotenv
